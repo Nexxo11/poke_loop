@@ -682,7 +682,8 @@ bool8 FldEff_SecretPowerTree(void)
                  gSprites[gPlayerAvatar.spriteId].oam.y + gFieldEffectArguments[6],
                  148);
 
-    if (gFieldEffectArguments[7] == 1 || gFieldEffectArguments[7] == 3)
+    if (gFieldEffectArguments[
+        7] == 1 || gFieldEffectArguments[7] == 3)
         ToggleSecretBaseEntranceMetatile();
 
     return FALSE;
