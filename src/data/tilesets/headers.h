@@ -841,3 +841,14 @@ const struct Tileset gTileset_Nature =
     .metatileAttributes = gMetatileAttributes_Nature,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Interior_Loop =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Interior_Loop,
+    .palettes = gTilesetPalettes_Interior_Loop,
+    .metatiles = gMetatiles_Interior_Loop,
+    .metatileAttributes = gMetatileAttributes_Interior_Loop,
+    .callback = NULL,
+};
