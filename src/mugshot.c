@@ -26,7 +26,7 @@ void ClearMugshot(void);
 
 
 static const struct Mugshot sMugshots[] = {
-    [MUGSHOT_RITZ_1] = { .x = 16, .y = 5, .width = 48, .height = 48, .image = sMugshotImg_Ritz_1, .palette = sMugshotPal_Ritz_1},
+    [MUGSHOT_RITZ_1] = { .x = 1, .y = 8, .width = 48, .height = 48, .image = sMugshotImg_Ritz_1, .palette = sMugshotPal_Ritz_1},
 };
 
 //WindowId + 1, 0 if window is not open
