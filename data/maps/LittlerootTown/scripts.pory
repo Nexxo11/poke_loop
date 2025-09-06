@@ -1016,3 +1016,11 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "Let's go to my LAB.$"
 
 `
+script mugshot_test {
+	lock
+	faceplayer
+	callnative(DrawMugshot)
+	msgbox(format("Hola, mugshot test xd"))
+	callnative(ClearMugshot)
+	release
+}

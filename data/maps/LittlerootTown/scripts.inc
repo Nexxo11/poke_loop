@@ -2030,3 +2030,23 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "I have something to show you.\n"
 # 1016 "data/maps/LittlerootTown/scripts.pory"
 	.string "Let's go to my LAB.$"
+
+mugshot_test::
+# 1020 "data/maps/LittlerootTown/scripts.pory"
+	lock
+# 1021 "data/maps/LittlerootTown/scripts.pory"
+	faceplayer
+# 1022 "data/maps/LittlerootTown/scripts.pory"
+	callnative DrawMugshot
+# 1023 "data/maps/LittlerootTown/scripts.pory"
+	msgbox mugshot_test_Text_0
+# 1024 "data/maps/LittlerootTown/scripts.pory"
+	callnative ClearMugshot
+# 1025 "data/maps/LittlerootTown/scripts.pory"
+	release
+	return
+
+
+mugshot_test_Text_0:
+# 1023 "data/maps/LittlerootTown/scripts.pory"
+	.string "Hola, mugshot test xd$"
