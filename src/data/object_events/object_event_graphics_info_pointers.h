@@ -1,4 +1,9 @@
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanNormal;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_talia;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_roxana;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_percy;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_lucas;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_may_walk;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanMachBike;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanSurfing;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanFieldMove;
@@ -492,6 +497,11 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_POKE_BALL] =                &gObjectEventGraphicsInfo_PokeBall,
     [OBJ_EVENT_GFX_OW_MON] =                   &gObjectEventGraphicsInfo_Follower,
     [OBJ_EVENT_GFX_LIGHT_SPRITE] =             &gObjectEventGraphicsInfo_BallLight,
+    [OBJ_EVENT_GFX_MAY_WALK] = &gObjectEventGraphicsInfo_may_walk,
+    [OBJ_EVENT_GFX_LUCAS] = &gObjectEventGraphicsInfo_lucas,
+    [OBJ_EVENT_GFX_PERCY] = &gObjectEventGraphicsInfo_percy,
+    [OBJ_EVENT_GFX_ROXANA] = &gObjectEventGraphicsInfo_roxana,
+    [OBJ_EVENT_GFX_TALIA] = &gObjectEventGraphicsInfo_talia,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {

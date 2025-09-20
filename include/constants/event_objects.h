@@ -250,7 +250,7 @@
 // NOTE: The maximum amount of object events has been expanded from 255 to 65535.
 // Since dynamic graphics ids still require at least 16 free values, the actual limit
 // is 65519, but even considering follower Pokémon, this should be more than enough :)
-#define NUM_OBJ_EVENT_GFX                        242
+#define NUM_OBJ_EVENT_GFX                        250
 
 
 // These are dynamic object gfx ids.
@@ -430,5 +430,17 @@
 // for compressed graphicsInfos
 // '(C)ompressed (E)vent'
 #define COMP_OW_TILE_TAG_BASE 0xCE00
+
+#define OBJ_EVENT_GFX_MAY_WALK 242
+#define OBJ_EVENT_PAL_TAG_MAY_WALK 0x8005
+#define OBJ_EVENT_GFX_LUCAS 243
+#define OBJ_EVENT_PAL_TAG_LUCAS 0x8006
+#define OBJ_EVENT_GFX_PERCY 244
+#define OBJ_EVENT_PAL_TAG_PERCY 0x8007
+#define OBJ_EVENT_GFX_ROXANA 245
+#define OBJ_EVENT_PAL_TAG_ROXANA 0x8008
+#define OBJ_EVENT_GFX_TALIA 246
+#define OBJ_EVENT_PAL_TAG_TALIA 0x8009
+
 
 #endif  // GUARD_CONSTANTS_EVENT_OBJECTS_H

@@ -465,3 +465,13 @@ const u16 gObjectEventPal_StrangeBall[] = INCBIN_U16("graphics/object_events/pic
 
 const u32 gFieldEffectObjectPic_CaveDust[] = INCBIN_U32("graphics/field_effects/pics/cave_dust.4bpp");
 const u16 gFieldEffectObjectPalette_CaveDust[] = INCBIN_U16("graphics/field_effects/palettes/cave_dust.gbapal");
+const u32 gObjectEventPic_may_walk[] = INCBIN_U32("graphics/object_events/pics/people/main_characters/may_walk.4bpp");
+const u16 gObjectEventPal_may_walk[] = INCBIN_U16("graphics/object_events/pics/people/main_characters/may_walk.gbapal");
+const u32 gObjectEventPic_lucas[] = INCBIN_U32("graphics/object_events/pics/people/main_characters/lucas.4bpp");
+const u16 gObjectEventPal_lucas[] = INCBIN_U16("graphics/object_events/pics/people/main_characters/lucas.gbapal");
+const u32 gObjectEventPic_percy[] = INCBIN_U32("graphics/object_events/pics/people/main_characters/percy.4bpp");
+const u16 gObjectEventPal_percy[] = INCBIN_U16("graphics/object_events/pics/people/main_characters/percy.gbapal");
+const u32 gObjectEventPic_roxana[] = INCBIN_U32("graphics/object_events/pics/people/main_characters/roxana.4bpp");
+const u16 gObjectEventPal_roxana[] = INCBIN_U16("graphics/object_events/pics/people/main_characters/roxana.gbapal");
+const u32 gObjectEventPic_talia[] = INCBIN_U32("graphics/object_events/pics/people/main_characters/talia.4bpp");
+const u16 gObjectEventPal_talia[] = INCBIN_U16("graphics/object_events/pics/people/main_characters/talia.gbapal");
